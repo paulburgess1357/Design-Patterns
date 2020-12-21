@@ -142,6 +142,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Decorator_1.hpp" />
     <ClInclude Include="Observer_1.hpp" />
     <ClInclude Include="Observer_2.hpp" />
     <ClInclude Include="Print.hpp" />

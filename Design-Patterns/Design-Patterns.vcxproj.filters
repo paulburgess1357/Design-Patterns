@@ -35,5 +35,8 @@
     <ClInclude Include="Print.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="Decorator_1.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

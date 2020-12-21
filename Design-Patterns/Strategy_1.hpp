@@ -3,8 +3,6 @@
 // Concept From: Head First Design Patterns
 // Example in C++ written by: Paul Burgess
 
-// Strategy Pattern
-
 // The strategy pattern defines a family of algorithms, encapsulates each
 // one, and makes them interchangeable.
 
@@ -13,7 +11,6 @@
 
 
 #include "Print.hpp"
-#include <iostream>
 #include <memory>
 
 // ---------- Weapon (algorithms) ----------
