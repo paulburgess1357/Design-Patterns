@@ -14,3 +14,11 @@ The observer patten defines a one-to-many relationship.  When the "one" (subject
 Examples:
   - Link1
   - Link2
+
+### Decorator
+The decorator patten allows the user to dynamically add new functionality to an existing object.  It provides a flexible alternative to the inheritance structure and allows functionality to be easily extended.  You can think of the decorator patten as a “wrapper” pattern.  You take existing objects and “wrap” them with new classes that contain the desired behavior.  Both the “wrapper” classes and “original” object classes share the same interface.  This ensures that any downstream functions/classes will not be affected by the wrapped class.
+
+For example, say you own a coffee shop.  Some customers may want sprinklers, some may want whipped cream, and some may want both.  You can take the base coffee class and “wrap” the object with the desired ingredient variations.  You provide the customers with the objects: Coffee, Sprinkles { Coffee }, WhippedCream { Coffee }, Sprinkles{ WhippedCream { Coffee } }, etc.  These objects all share the same interface (say “DeliciousCaffeineDrink”), so any downstream functionality will continue to operate.  This can be done for any number of ingredient combinations.  You have extended the coffee variations by adding new classes that share a common interface.
+
+Examples:
+  - Link1
