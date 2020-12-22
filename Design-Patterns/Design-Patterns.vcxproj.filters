@@ -47,5 +47,8 @@
     <ClInclude Include="Singleton_1.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="Command.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

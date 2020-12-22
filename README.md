@@ -44,6 +44,16 @@ The singleton pattern is used when you want to have a single instance of a class
 
 Example:
   - Link1
+  
+### Command
+The command pattern is a behavioral design pattern.  Objects (“receivers”) contain all of the necessary information to perform specific tasks (e.g. turn_on_light()).  These objects are contained in a command object with a simple execute() function (The execute function calls the light function from above).  An invoker holds all of the commands and is responsible for initiating the execute call.
 
+For example, say you have a programmable remote (“invoker”).  You have a class that turns on the tv (“receiver”).  Since the remote can only be programmed with commands, you create a command object.  The command object is constructed and holds the tv class and logic.  This command object is placed with the associated remote button.  The calls look like this:  
+  - remote.push_button()
+    - command->execute()
+	  - tv.turn_on()
+This allows for any number of commands/logic to be programmed with the remote.  The logic is encapsulated within the receivers.  The invoker has no knowledge on how the action is performed.  All it nows is that it can call "execute()".  The command object holding the receiver will delegate the call to the receiver.
 
+Example:
+  - Link1
 

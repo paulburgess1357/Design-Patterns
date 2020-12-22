@@ -142,6 +142,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Command.hpp" />
     <ClInclude Include="Decorator_1.hpp" />
     <ClInclude Include="Factory_1.hpp" />
     <ClInclude Include="Factory_2.hpp" />
