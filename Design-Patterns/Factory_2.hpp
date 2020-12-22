@@ -1,4 +1,5 @@
 #pragma once
+#include "Print.hpp"
 
 // Concept From: Refactor Guru Design Patterns Book
 // Example in C++ written by: Paul Burgess
@@ -7,9 +8,6 @@
 // Creational pattern that provides an interface for creating objects in the
 // superclass, but allows subclasses to alter the type of objects that will
 // be created
-
-
-#include "Print.hpp"
 
 
 // -------------- Product Interface --------------

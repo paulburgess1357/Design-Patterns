@@ -1,4 +1,6 @@
 #pragma once
+#include "Print.hpp"
+#include <memory>
 
 // Concept From: Head First Design Patterns
 // Example in C++ written by: Paul Burgess
@@ -8,10 +10,6 @@
 
 // The below example encapsulates weapon behaviors (algorithms) and makes them
 // easily applicable to various types of characters (interchangeable)
-
-
-#include "Print.hpp"
-#include <memory>
 
 
 // ---------- Weapon (algorithms) ----------

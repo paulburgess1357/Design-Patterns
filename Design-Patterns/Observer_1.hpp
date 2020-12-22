@@ -1,4 +1,9 @@
 #pragma once
+#include "Print.hpp"
+#include <list>
+#include <string>
+#include <vector>
+#include <memory>
 
 // Concept From: Head First Design Patterns
 // Example in C++ written by: Paul Burgess
@@ -8,13 +13,6 @@
 
 // This observer pattern using smart pointers.  The raw pointer example
 // does the same thing as this, but is easier to follow.
-
-
-#include "Print.hpp"
-#include <list>
-#include <string>
-#include <vector>
-#include <memory>
 
 
 // ------ Observer (the "many" in the one-to-many) relationship ------

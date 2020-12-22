@@ -1,4 +1,8 @@
 #pragma once
+#include "Print.hpp"
+#include <iostream>
+#include <list>
+#include <string>
 
 // Concept From: Head First Design Patterns
 // Example in C++ written by: Paul Burgess
@@ -7,12 +11,6 @@
 // changes state, the observers (dependents) are notified.
 
 // This observer pattern using raw pointers.
-
-
-#include "Print.hpp"
-#include <iostream>
-#include <list>
-#include <string>
 
 
 // ------ Observer (the "many" in the one-to-many) relationship ------

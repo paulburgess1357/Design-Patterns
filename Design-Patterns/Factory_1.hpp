@@ -1,4 +1,5 @@
 #pragma once
+#include "Print.hpp"
 
 // Concept From: Refactor Guru Design Patterns Book
 // Example in C++ written by: Paul Burgess
@@ -6,8 +7,6 @@
 // Abstract Factory
 // Creation design pattern that lets you produce families of related objects
 // without specifying their concrete classes
-
-#include "Print.hpp"
 
 
 // -------------- Product Interface 1 --------------

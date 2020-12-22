@@ -39,7 +39,11 @@ The factory method creates a common interface for object creation.  The supercla
 Example:
   - Link1
 
+### Singleton
+The singleton pattern is used when you want to have a single instance of a class across the entire program.  This is typically done by making the constructor of the class private.  A public static function will create a new class object or return the existing object.
 
+Example:
+  - Link1
 
 
 

@@ -1,4 +1,7 @@
 #pragma once
+#include "Print.hpp"
+#include <string>
+#include <iostream>
 
 // Concept From: Head First Design Patterns
 // Example in C++ written by: Paul Burgess
@@ -10,11 +13,6 @@
 // The decorator pattern involves a set of decorator classes that are used to
 // wrap concrete classes.  Decorator classes mirror the type of the components
 // they decorate (either through interface or inheritance)
-
-
-#include "Print.hpp"
-#include <string>
-#include <iostream>
 
 
 // ---------------- Interface ----------------

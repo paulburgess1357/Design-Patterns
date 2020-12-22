@@ -1,4 +1,6 @@
 #pragma once
+#include <iostream>
+#include <memory>
 
 // Concept From: Head First Design Patterns
 // Example in C++ written by: Paul Burgess
@@ -8,10 +10,6 @@
 
 // The below example encapsulates duck behaviors (algorithms) and makes them
 // easily applicable to various types of ducks (interchangeable)
-
-
-#include <iostream>
-#include <memory>
 
 
 // ---------- Flying Behavior (Algorithm) ----------

@@ -148,6 +148,7 @@
     <ClInclude Include="Observer_1.hpp" />
     <ClInclude Include="Observer_2.hpp" />
     <ClInclude Include="Print.hpp" />
+    <ClInclude Include="Singleton_1.hpp" />
     <ClInclude Include="Strategy_1.hpp" />
     <ClInclude Include="Strategy_2.hpp" />
   </ItemGroup>

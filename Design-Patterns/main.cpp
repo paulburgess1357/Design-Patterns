@@ -5,6 +5,7 @@
 #include "Decorator_1.hpp"
 #include "Factory_1.hpp"
 #include "Factory_2.hpp"
+#include "Singleton_1.hpp"
 
 int main(){
 	//strategy_1();
@@ -13,5 +14,6 @@ int main(){
 	//observer_2();
 	//decorator_1();
 	//factory_1();
-	factory_2();
+	//factory_2();
+	singleton_1();
 }
