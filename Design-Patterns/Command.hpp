@@ -18,7 +18,6 @@
 //          The ConcreteCommand carries it out by calling one or more actions on the Receiver.
 
 
-
 // ------------ Receivers -------------
 // Receivers "receive" the command request and have the knowledge on how to
 // perform the request
