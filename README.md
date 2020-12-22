@@ -52,7 +52,8 @@ For example, say you have a programmable remote (“invoker”).  You have a cla
   - remote.push_button()
     - command->execute()
 	  - tv.turn_on()
-This allows for any number of commands/logic to be programmed with the remote.  The logic is encapsulated within the receivers.  The invoker has no knowledge on how the action is performed.  All it nows is that it can call "execute()".  The command object holding the receiver will delegate the call to the receiver.
+
+This allows for any number of commands/logic to be programmed with the remote.  The logic is encapsulated within the receivers.  The invoker has no knowledge on how the action is performed.  All it knows is that it can call "execute()".  The command object holding the receiver will delegate the call to the receiver.
 
 Example:
   - Link1
