@@ -79,7 +79,7 @@ public:
 
 
 // ----------------- Example --------------------
-int main() {
+inline void factory_2() {
 	TransportCreator* truck_creator = new TruckCreator;
 	Transport* truck = truck_creator->create_and_test_transportation();
 

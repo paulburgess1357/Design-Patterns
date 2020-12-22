@@ -4,6 +4,7 @@
 #include "Observer_2.hpp"
 #include "Decorator_1.hpp"
 #include "Factory_1.hpp"
+#include "Factory_2.hpp"
 
 int main(){
 	//strategy_1();
@@ -11,5 +12,6 @@ int main(){
 	//observer_1();
 	//observer_2();
 	//decorator_1();
-	factory_1();
+	//factory_1();
+	factory_2();
 }
