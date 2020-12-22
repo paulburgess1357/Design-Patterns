@@ -22,3 +22,24 @@ For example, say you own a coffee shop.  Some customers may want sprinklers, som
 
 Examples:
   - Link1
+  
+### Creational Patterns
+  
+#### Abstract Factory
+The abstract factory pattern provides an interface for creating related objects.  Subclass factories are used to create and instantiate the related products.   Adding a new group of related products is done simply by creating a new subclass factory.  The products produced by the subclass factories share a common interface by their “type”.  
+
+For example, say you have an abstract “car parts” factory.  Subclass factories could be “sports car parts” and “off-road car parts”.  Each factory would create an engine and wheels (sports car engine, sports car wheels, off-road car engine, off-road car wheels).  These products would share a common interface.  The engine products would all share the “engine” interface.  The wheel products would all share the “wheel” interface.  The downstream code remains unaltered because it only cares about the interface type implemented by the actual product (wheels->turn(); engine->rev(); etc.).
+
+Example:
+  - Link1
+
+#### Factory Method
+The factory method creates a common interface for object creation.  The superclass (“Parent Factory”) contains the method for object creation but delegates the “type” of object being created to its subclasses (Think of them as “mini” factories that produce one product type).  The subclass factories are designed to create specific product types (via the ‘new’ method).  The products that are created from the factories all share a common interface.  This allows any downstream processing to remain unaltered.  
+
+Example:
+  - Link1
+
+
+
+
+
