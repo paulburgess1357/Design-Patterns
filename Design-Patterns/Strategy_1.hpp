@@ -13,6 +13,7 @@
 #include "Print.hpp"
 #include <memory>
 
+
 // ---------- Weapon (algorithms) ----------
 class WeaponBehavior {
 public:
@@ -54,7 +55,6 @@ class NoWeapon : public WeaponBehavior {
 
 // ----------------- Characters -----------------
 // Weapon behaviors are interchangeable
-
 class Character {
 
 public:
@@ -105,6 +105,7 @@ public:
 		print("I am knight!");
 	}
 };
+
 
 // ---------------- Example ----------------
 inline void strategy_1() {

@@ -16,7 +16,8 @@
 #include <string>
 #include <iostream>
 
-// Interface
+
+// ---------------- Interface ----------------
 class IConsumable {
 
 public:
@@ -33,8 +34,8 @@ protected:
 	float m_cost;
 };
 
-// Concrete
 
+// ---------- Concrete Implementation ----------
 class Espresso : public IConsumable {
 public:
 	Espresso() {
@@ -71,6 +72,8 @@ public:
 	}
 };
 
+
+// --------- Decorators (Wrappers) ---------
 class SprinklesDecorator : public IConsumable {
 public:
 	SprinklesDecorator(IConsumable* consumable)
@@ -136,6 +139,8 @@ private:
 	IConsumable* m_consumable;
 };
 
+
+// ---------------- Example ----------------
 inline void decorator_1() {
 
 	// Create basic beverage

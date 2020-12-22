@@ -13,6 +13,7 @@
 #include <iostream>
 #include <memory>
 
+
 // ---------- Flying Behavior (Algorithm) ----------
 // Fly behaviors are interchangeable
 class IFlyBehavior {
@@ -139,6 +140,7 @@ public:
 };
 
 
+// ---------------- Example ----------------
 inline void strategy_2() {
 
 	std::cout << "Silly Duck" << std::endl;
