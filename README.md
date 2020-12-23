@@ -58,3 +58,8 @@ This allows for any number of commands/logic to be programmed with the remote.  
 Example:
   - Link1
 
+### Adapter
+The adapter pattern is used to translate from one interface to another.  A great real world example is the use of outlet converters.  When you travel from the US to another country, you need an “adapter” to connect your electronics.  The plug from your laptop (aka “client”) uses the “adapter” to connect to the wall outlet (“adaptee”).  The client (plug) knows nothing about the adaptee (outlet).  As far as the client is concerned, it is connected to the correct interface.  The client and adaptee are completely decoupled. 
+
+Example:
+  - Link1

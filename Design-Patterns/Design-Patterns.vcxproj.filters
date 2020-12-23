@@ -50,5 +50,8 @@
     <ClInclude Include="Command.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="Adapter.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
