@@ -74,3 +74,19 @@ The principle of least knowledge reduces interactions between objects.  It helps
   -	Use methods from any public/protected/private components
 
 The above guidelines mean you cannot use methods from an object you get back from another call.  For example, this would be incorrect:
+```
+// Concept From: Head First Design Patterns
+
+// Bad
+float get_driving_time(){
+	Thermometer thermometer = station.get_thermometer();
+	return thermometer.get_temp();
+}
+
+// Good
+float get_temp(){
+	return station.get_temp();
+}
+```
+
+In the good example from above, we have added a method to the station class.  This reduces the number of classes that we are dependend on.
