@@ -53,5 +53,8 @@
     <ClInclude Include="Adapter.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="PrincipleOfLeastKnowledge.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

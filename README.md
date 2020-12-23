@@ -67,10 +67,11 @@ Example:
 ### Facade
 The façade pattern provides a simplified interface to a set of interfaces and classes in a subsystem.  The goal of the façade pattern is to make the system easier to use.  This is done through composition.  For example, say you needed to ship a product.  You would have to open the box, package the product, close the box, tape it shut, label it, and send it to the post office.  Those are a lot of tasks to do each time.  The façade pattern would take all of those tasks and roll it up into a simple function: ship_product().  Each of those functions may belong to separate classes.  If that’s the case, the façade pattern class will hold each of those classes internally and call their methods.  In short, the façade pattern is a class that is a composition of other classes.  It simplifies complex calls.  If more specialized functionality is needed, the client still has access to each individual class/function (outside the façade pattern).
 
-### Principle of Least Knowledge
+### Principle of Least Knowledge ("Law of Demeter")
 The principle of least knowledge reduces interactions between objects.  It helps us create designs that have a limited number of coupled classes.  When a system is built on too many coupled classes, it becomes fragile and difficult to maintain.  In short, the following guidelines should be used when calling methods within a class:
   -	Use methods in the object itself
   -	Use methods from objects passed in as parameters
+  - Use methods from any objects that are created or instantiated
   -	Use methods from any public/protected/private components
 
 The above guidelines mean you cannot use methods from an object you get back from another call.  For example, this would be incorrect:
@@ -89,4 +90,7 @@ float get_temp(){
 }
 ```
 
-In the good example from above, we have added a method to the station class.  This reduces the number of classes that we are dependend on.
+In the good example from above, we have added a method to the station class.  This reduces the number of classes that we are depend on.
+
+Example:
+  - Link1

@@ -7,6 +7,7 @@
 #include "Factory_2.hpp"
 #include "Singleton_1.hpp"
 #include "Adapter.hpp"
+#include "PrincipleOfLeastKnowledge.hpp"
 
 int main(){
 	//strategy_1();
@@ -17,5 +18,6 @@ int main(){
 	//factory_1();
 	//factory_2();
 	//singleton_1();
-	adapter_1();
+	//adapter_1();
+	principle_of_least_knowledge_1();
 }
