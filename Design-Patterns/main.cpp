@@ -8,6 +8,7 @@
 #include "Singleton_1.hpp"
 #include "Adapter.hpp"
 #include "PrincipleOfLeastKnowledge.hpp"
+#include "TemplateMethod_1.hpp"
 
 int main(){
 	//strategy_1();
@@ -19,5 +20,6 @@ int main(){
 	//factory_2();
 	//singleton_1();
 	//adapter_1();
-	principle_of_least_knowledge_1();
+	//principle_of_least_knowledge_1();
+	template_method_1();
 }

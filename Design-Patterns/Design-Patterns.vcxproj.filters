@@ -56,5 +56,8 @@
     <ClInclude Include="PrincipleOfLeastKnowledge.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="TemplateMethod_1.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

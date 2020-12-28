@@ -154,6 +154,7 @@
     <ClInclude Include="Singleton_1.hpp" />
     <ClInclude Include="Strategy_1.hpp" />
     <ClInclude Include="Strategy_2.hpp" />
+    <ClInclude Include="TemplateMethod_1.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -94,3 +94,11 @@ In the good example from above, we have added a method to the station class.  Th
 
 Example:
   - [Example 1](https://github.com/paulburgess1357/Design-Patterns/blob/master/Design-Patterns/PrincipleOfLeastKnowledge.hpp)
+
+### The Template Method Pattern
+The template method pattern defines the steps of an algorithm and allows the subclasses to provide the implementation for one or more steps.  The outline of the algorithm is provided in a method within a parent abstract class.  Subclasses provide the implementation for at least one step within the outlined method.  This allows multiple subclasses to be created without altering the overall structure of the algorithm.  A special method (called a hook) can also be implemented in the parent class.  Subclasses can redefine the method or choose not to.  This method is considered optional to override.
+
+For example, say you had two recipes: One for making tea and one for making coffee.  The steps involved are similar: boil water, brew, pour into cup, add condiments.  The abstract parent class can define the ‘outline’ as well as individual steps that are the same for any drink (boil water and pour).  The subclasses can define specialized methods (brew and add condiments).  Subclasses cannot redefine the actual algorithm method.  They can only redefine steps within it.
+
+Example:
+  - [Example 1]()
