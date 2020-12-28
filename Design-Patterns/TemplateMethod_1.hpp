@@ -63,9 +63,9 @@ public:
 	void add_condiments() const override{
 		print("Adding sugar and cream");
 	}
-
-	// hook in overridden here (so customer does not add condiments):
+	
 private:
+	// hook in overridden here (so customer does not add condiments):
 	bool customer_wants_condiments() const override{
 		return false;
 	}
