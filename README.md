@@ -101,4 +101,4 @@ The template method pattern defines the steps of an algorithm and allows the sub
 For example, say you had two recipes: One for making tea and one for making coffee.  The steps involved are similar: boil water, brew, pour into cup, add condiments.  The abstract parent class can define the ‘outline’ as well as individual steps that are the same for any drink (boil water and pour).  The subclasses can define specialized methods (brew and add condiments).  Subclasses cannot redefine the actual algorithm method.  They can only redefine steps within it.
 
 Example:
-  - [Example 1]()
+  - [Example 1](https://github.com/paulburgess1357/Design-Patterns/blob/master/Design-Patterns/TemplateMethod_1.hpp)
